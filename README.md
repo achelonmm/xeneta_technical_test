@@ -12,12 +12,16 @@ Xeneta Demo Website
 3) Check that form can be submited succesfully when all fields are properly filled
 
 # Guide to try the tests
-1) Download the Katalon_Studio_Windows_64.5.7.1 folder to your chosen path (Desktop recommended)
-2) Go to the Command Line Prompt
-3) Write the command below:
+1) Download Katalon Studio (https://www.katalon.com/)
+2) Once downloaded, extract Katalon_Studio_Windows_64.5.7.1 folder to your chosen path (Desktop recommended)
+3) Download Xeneta_Technical_Test.rar
+4) Extract Technical_Test_Xeneta foldere into Katalon_Studio_Windows_64.5.7.1 folder
+5) Open a Command Line Prompt
+6) Go to the Katalon_Studio_Windows_64.5.7.1 folder
+7) Write the command below:
 katalon -noSplash  -runMode=console -consoleLog -projectPath="\path\to\Katalon_Studio_Windows_64-5.7.1\Technical_Test_Xeneta\Technical_Test_Xeneta.prj" -retry=1 -retryFailedTestCases=true -testSuitePath="Test Suites/Xeneta Technical Test" -executionProfile="default" -browserType="Firefox"
 
-3.1) Change -browserType="Firefox" to Chrome/Safari/Edge/IE to test the suite in different browsers
+7.1) Change -browserType="Firefox" to Chrome/Safari/Edge/IE to test the suite in different browsers
 
 
 # Special Notes
